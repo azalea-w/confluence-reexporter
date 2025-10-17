@@ -1,0 +1,10 @@
+[project]
+name = "confluence-parser"
+version = "0.1.0"
+description = "Parses XML exports of Confluence spaces and exports them to viewable HTML Pages"
+requires-python = ">=3.11"
+dependencies = [
+    "beautifulsoup4>=4.14.2",
+    "coloredlogs>=15.0.1",
+    "lxml>=6.0.2",
+]
